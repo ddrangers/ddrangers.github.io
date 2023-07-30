@@ -2135,6 +2135,8 @@ input, select, textarea {
 
 		.image.avatar {
 			border-radius: 100%;
+			 margin: 0 0 1em 0;
+			 width: 0;
 		}
 
 			.image.avatar:before {
@@ -2621,6 +2623,7 @@ input, select, textarea {
 			-ms-flex-grow: 1;
 			flex-grow: 1;
 			margin: 0 0 2em 0;
+
 		}
 
 		#header strong, #header b {
@@ -2638,10 +2641,13 @@ input, select, textarea {
 			margin: 0;
 		}
 
-		#header .image.avatar {
+
+		.image.avatar {
+			border-radius: 100%;
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: fit-content;
 		}
+
 
 /* Footer */
 
